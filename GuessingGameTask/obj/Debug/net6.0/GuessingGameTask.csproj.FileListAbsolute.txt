@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\bin\Debug\net6.0\GuessingGameTask.exe
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\bin\Debug\net6.0\GuessingGameTask.deps.json
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\bin\Debug\net6.0\GuessingGameTask.runtimeconfig.json
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\bin\Debug\net6.0\GuessingGameTask.dll
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\bin\Debug\net6.0\GuessingGameTask.pdb
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\GuessingGameTask.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\GuessingGameTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\GuessingGameTask.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\GuessingGameTask.AssemblyInfo.cs
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\GuessingGameTask.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\GuessingGameTask.dll
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\refint\GuessingGameTask.dll
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\GuessingGameTask.pdb
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\GuessingGameTask.genruntimeconfig.cache
+C:\Users\USER\Desktop\Bezao_task_two\GuessingGameTask\obj\Debug\net6.0\ref\GuessingGameTask.dll

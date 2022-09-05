@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\leapYearTask.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\leapYearTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\leapYearTask.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\leapYearTask.AssemblyInfo.cs
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\leapYearTask.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\bin\Debug\net6.0\leapYearTask.exe
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\bin\Debug\net6.0\leapYearTask.deps.json
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\bin\Debug\net6.0\leapYearTask.runtimeconfig.json
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\bin\Debug\net6.0\leapYearTask.dll
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\bin\Debug\net6.0\leapYearTask.pdb
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\leapYearTask.dll
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\refint\leapYearTask.dll
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\leapYearTask.pdb
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\leapYearTask.genruntimeconfig.cache
+C:\Users\USER\Desktop\Bezao_task_two\leapyeartask\obj\Debug\net6.0\ref\leapYearTask.dll

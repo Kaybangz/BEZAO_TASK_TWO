@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\PigLatinTask.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\PigLatinTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\PigLatinTask.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\PigLatinTask.AssemblyInfo.cs
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\PigLatinTask.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\bin\Debug\net6.0\PigLatinTask.exe
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\bin\Debug\net6.0\PigLatinTask.deps.json
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\bin\Debug\net6.0\PigLatinTask.runtimeconfig.json
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\bin\Debug\net6.0\PigLatinTask.dll
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\bin\Debug\net6.0\PigLatinTask.pdb
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\PigLatinTask.dll
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\refint\PigLatinTask.dll
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\PigLatinTask.pdb
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\PigLatinTask.genruntimeconfig.cache
+C:\Users\USER\Desktop\Bezao_task_two\pigLatinTask\obj\Debug\net6.0\ref\PigLatinTask.dll
