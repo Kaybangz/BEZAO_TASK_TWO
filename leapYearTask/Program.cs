@@ -6,13 +6,24 @@ namespace LeapYearTask
     {
         static void Main(string[] args)
         {
-            for (int year = 2022; year <= 2106; year++)
+            DateTime currentDate = DateTime.Now;
+
+            int year = currentDate.Year;
+
+            Console.WriteLine($"The next 20 leap years from {year} are: ");
+
+            int count = 0;
+
+            while (count < 20)
             {
-                if (DateTime.IsLeapYear(year)){
-                    Console.WriteLine("{0} is a leap year.", year);
+
+                if ((year % 400 == 0) || (year % 4 == 0) && (year % 100 != 0))
+                {
+                    Console.WriteLine(year);
+                    count++;
                 }
+                year++;
             }
-            
         }
     }
 }

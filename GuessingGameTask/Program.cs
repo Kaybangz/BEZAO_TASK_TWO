@@ -1,11 +1,21 @@
-﻿namespace GuessingGameTask
+﻿using System;
+using System.Collections.Generic;
+namespace GuessingGameTask
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int secretNumber = 344;
+            //Unsure whether or not the secret number should be a random number
+
+            // int secretNumber = 344;
+            Random generatedSecretNum = new Random();
+            int secretNumber = generatedSecretNum.Next(1, 100);
+
             int numberOfTries = 5;
+
+            //Empty list for inserting all of the user's guesses
+            List<int> userTriesCollection = new List<int>();
 
 
             while (true)
@@ -27,14 +37,50 @@
                 else if (userGuess >= secretNumber)
                 {
                     Console.WriteLine("Your input is larger than secret number");
-                    numberOfTries--;
-                    Console.WriteLine($"You have {numberOfTries} tries left");
+
+                    //Add user try to list
+                    userTriesCollection.Add(userGuess);
+
+                    //If user's current guess is similar to previous guess, count as 1 try
+                    for (int i = 1; i <= userTriesCollection.Count; i++)
+                    {
+
+                        if (userTriesCollection[i] == userTriesCollection[i - 1])
+                        {
+                            Console.WriteLine($"You have {numberOfTries} tries left");
+                        }
+                        else
+                        {
+                            numberOfTries--;
+                            Console.WriteLine($"You have {numberOfTries} tries left");
+                        }
+                    }
+
+
                 }
                 else if (userGuess <= secretNumber)
                 {
                     Console.WriteLine("Your input is smaller than the secret number");
-                    numberOfTries--;
-                    Console.WriteLine($"You have {numberOfTries} tries left");
+
+                    //Add user try to list
+                    userTriesCollection.Add(userGuess);
+
+
+
+                    //If user's current guess is similar to previous guess, count as 1 try
+                    for (int i = 1; i <= userTriesCollection.Count; i++)
+                    {
+
+                        if (userTriesCollection[i] == userTriesCollection[i - 1])
+                        {
+                            Console.WriteLine($"You have {numberOfTries} tries left");
+                        }
+                        else
+                        {
+                            numberOfTries--;
+                            Console.WriteLine($"You have {numberOfTries} tries left");
+                        }
+                    }
                 }
 
 
@@ -59,6 +105,8 @@
                     break;
                 }
             }
+
+
 
         }
     }
