@@ -1,52 +1,73 @@
 ﻿using System;
+using System.Collections.Generic;
 namespace GuessingGameTask
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // int secretNumber = 344;
-            Random generatedSecretNum = new Random();
-            int secretNumber = generatedSecretNum.Next(1, 100);
 
-            //Number of tries
-            int numberOfTries = 5;
+            //Make a secret number
+            //Display a message if the user's guess is higher or lower than the secret number
+            //Give the user a limited amount of tries
+            //if the user guesses same number multiple times, count as one try
 
+            Random randomNum = new Random();
+            int secretNum = randomNum.Next(1, 20);
 
-            while (true)
+            int numOfTries = 5;
+
+            List<int> userGuesses = new List<int>();
+
+            while (numOfTries != 0)
             {
-                //Print the message to the user
-                Console.WriteLine($"Guess the number between 1 and 100 \nYou have {numberOfTries} tries left: \n");
+                Console.WriteLine("Guess the secret number:");
 
-                //Collect input from user
                 int userGuess = Convert.ToInt32(Console.ReadLine());
 
-                //Check if user input is greater than, lesser than or equal to secret number
-                if (userGuess == secretNumber)
+
+                if (userGuess < secretNum)
                 {
-                    Console.WriteLine($"Congratulations, you are correct!, the secret number is {secretNumber}\n");
+                    Console.WriteLine("Guess is smaller than secret number!");
+                    userGuesses.Add(userGuess);
+
+                    if (userGuesses.Count > 1)
+                    {
+                        if (userGuesses[userGuesses.Count - 1] != userGuesses[userGuesses.Count - 2])
+                        {
+                            numOfTries--;
+                        }
+                    }
+                    Console.WriteLine($"You have {numOfTries} tries left");
+                }
+                else if (userGuess > secretNum)
+                {
+                    Console.WriteLine("Guess is bigger than secret number!\n");
+                    userGuesses.Add(userGuess);
+
+                    if (userGuesses.Count > 1)
+                    {
+                        if (userGuesses[userGuesses.Count - 1] != userGuesses[userGuesses.Count - 2])
+                        {
+                            numOfTries--;
+                        }
+                    }
+                    Console.WriteLine($"You have {numOfTries} tries left");
+                }
+                else if (userGuess == secretNum)
+                {
+                    Console.WriteLine("Congrats, You guessed the number correctly!");
                     break;
                 }
-
-                else if (userGuess >= secretNumber)
+                else
                 {
-                    Console.WriteLine("Guess is larger than secret number\n");
-                    numberOfTries--;
+                    Console.WriteLine("Input not recognized");
                 }
+            }
 
-                else if (userGuess <= secretNumber)
-                {
-                    Console.WriteLine("Guess is smaller than the secret number\n");
-                    numberOfTries--;
-                }
-
-
-                //Check if user has run out of chances
-                if (numberOfTries == 0)
-                {
-                    Console.WriteLine("Sorry, you've run out of tries!");
-                    break;
-                }
+            if (numOfTries == 0)
+            {
+                Console.WriteLine("You've run out of tries");
             }
 
         }
