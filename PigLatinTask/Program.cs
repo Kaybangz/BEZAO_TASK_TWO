@@ -33,6 +33,8 @@
                     newArr[i] = newArr[i][newArr[i].Length - 3] + newArr[i].Substring(0, newArr[i].Length - 3);
                 }
 
+                Console.WriteLine(String.Join(" ", newArr));
+
             }
         }
     }
